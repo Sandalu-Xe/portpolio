@@ -5,7 +5,7 @@ const App = () =>{
   return (
     <>
        <div>   
-        3 Diamentaiaonal
+        i am sandalu thushan ekanayaka
       </div> 
     </>
   )
