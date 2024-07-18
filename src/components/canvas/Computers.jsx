@@ -2,14 +2,14 @@ import React from "react";
 
 
 
-const Computers = () => {
+const About = () => {
   return (
     <>
       <div>
-      Computers
+        About us
       </div>
     </>
   );
 };
 
-export default Computers
+export default About
