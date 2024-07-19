@@ -245,20 +245,20 @@ const projects = [
     source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
   {
-    name: "Trip Guide",
+    name: "Weather App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simple weather app built using SwiftUI that displays the current weather and forecast for a specific location.",
     tags: [
       {
-        name: "nextjs",
+        name: "SwiftUI",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "fire-base",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Swift",
         color: "pink-text-gradient",
       },
     ],
