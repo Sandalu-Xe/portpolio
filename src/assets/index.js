@@ -31,8 +31,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import iosdeveloper from "./iosdeveloper.png";
 import back from "./back.png";
+import font from "./font.png";
 
 export {
+  font,
   back,
   logo,
   backend,

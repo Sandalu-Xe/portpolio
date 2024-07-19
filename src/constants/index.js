@@ -25,6 +25,7 @@ import {
   tripguide,
   threejs,
   back,
+  font,
 
 } from "../assets";
 
@@ -49,8 +50,8 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Fontend Developer",
+    icon: font,
   },
   {
     title: "Backend Developer",
