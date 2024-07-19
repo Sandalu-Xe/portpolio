@@ -203,46 +203,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Food Order-App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a food ordering application built using the Anguler framework. The app allows users to register, log in ,location, view new products, browse the home page, contact support, and learn about the app. ",
     tags: [
       {
-        name: "react",
+        name: "Anguler",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "fire-base",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css,scss",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sandalu01/Food-Order-App",
   },
   {
-    name: "Job IT",
+    name: "Apple Frameworks ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This SwiftUI project displays various Apple frameworks in a grid layout. When a framework is selected, it shows detailed information about the framework.",
     tags: [
       {
-        name: "react",
+        name: "SwiftUI",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "fire-base",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Swift",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
   {
     name: "Trip Guide",
