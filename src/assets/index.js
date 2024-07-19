@@ -33,10 +33,12 @@ import iosdeveloper from "./iosdeveloper.png";
 import back from "./back.png";
 import font from "./font.png";
 
+
 export {
   font,
   back,
   logo,
+
   backend,
   creator,
   mobile,
