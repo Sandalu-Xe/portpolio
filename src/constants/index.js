@@ -24,6 +24,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  back,
 
 } from "../assets";
 
@@ -53,7 +54,7 @@ const services = [
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: back,
   },
  
   {

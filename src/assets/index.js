@@ -30,8 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import iosdeveloper from "./iosdeveloper.png";
+import back from "./back.png";
 
 export {
+  back,
   logo,
   backend,
   creator,
