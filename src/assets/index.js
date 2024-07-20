@@ -36,6 +36,7 @@ import back from "./back.png";
 import font from "./font.png";
 import whetherapp from "./whetherapp.png"
 import modern from "./modern.png"
+import food from "./food.png"
 
 export {
   font,
@@ -45,6 +46,7 @@ export {
   thushan,
   whetherapp,
   modern,
+  food,
 
   backend,
   creator,

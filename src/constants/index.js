@@ -28,6 +28,7 @@ import {
   font,
   whetherapp,
   modern,
+food,
 
 } from "../assets";
 
