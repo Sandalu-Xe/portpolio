@@ -142,10 +142,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining applications using SwiftUI and other related technologies: Focus on creating and updating applications for iOS and macOS using SwiftUI, ensuring modern and efficient UI design.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products: Work closely with various teams to ensure the development of cohesive and high-quality applications that meet user and business needs",
+      "Implementing responsive design and ensuring cross-device compatibility: Ensure the application interfaces are adaptive and function seamlessly across different iOS devices, providing a consistent user experience.",
+      "Participating in code reviews and providing constructive feedback to other developers: Engage in regular code reviews to maintain code quality and share insights, fostering a culture of continuous improvement and collaboration.",
     ],
   },
   {
