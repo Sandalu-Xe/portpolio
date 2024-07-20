@@ -35,7 +35,7 @@ import iosdeveloper from "./iosdeveloper.png";
 import back from "./back.png";
 import font from "./font.png";
 import whetherapp from "./whetherapp.png"
-
+import modern from "./modern.png"
 
 export {
   font,
@@ -44,6 +44,7 @@ export {
   sun,
   thushan,
   whetherapp,
+  modern,
 
   backend,
   creator,

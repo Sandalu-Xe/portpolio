@@ -27,6 +27,7 @@ import {
   back,
   font,
   whetherapp,
+  modern,
 
 } from "../assets";
 
@@ -242,7 +243,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: modern,
     source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
   {
