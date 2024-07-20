@@ -50,7 +50,7 @@ const About = () => {
         BICT(Hons) in Software Technology (R) 
         Undergraduate at the University of Sri Jayewardenepura, 
         and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
+        Anguler. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
