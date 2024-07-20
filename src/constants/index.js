@@ -216,7 +216,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: food,
     source_code_link: "https://github.com/Sandalu01/Food-Order-App",
   },
   {
