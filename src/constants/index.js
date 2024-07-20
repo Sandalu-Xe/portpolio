@@ -26,6 +26,7 @@ import {
   threejs,
   back,
   font,
+  whetherapp,
 
 } from "../assets";
 
@@ -262,7 +263,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: whetherapp,
     source_code_link: "https://github.com/Sandalu01/Weather-App",
   },
 ];

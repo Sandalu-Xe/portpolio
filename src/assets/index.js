@@ -34,6 +34,7 @@ import tripguide from "./tripguide.png";
 import iosdeveloper from "./iosdeveloper.png";
 import back from "./back.png";
 import font from "./font.png";
+import whetherapp from "./whetherapp.png"
 
 
 export {
@@ -42,6 +43,7 @@ export {
   logo,
   sun,
   thushan,
+  whetherapp,
 
   backend,
   creator,
