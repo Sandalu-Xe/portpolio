@@ -181,7 +181,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://media.istockphoto.com/id/1499761455/photo/portrait-of-smiling-50s-stylish-confident-mature-businesswoman-middle-aged-company-ceo.jpg?s=612x612&w=0&k=20&c=rZmKoShimq1enUcdJveCEAe3OxE-cwgKw8moRx_1pvo=",
   },
   {
     testimonial:
@@ -189,7 +189,7 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://media.istockphoto.com/id/1513285157/photo/leader-ceo-and-manager-in-a-boardroom-meeting-with-his-team-for-planning-strategy-and.jpg?s=612x612&w=0&k=20&c=5pazFxAN8yRzwVdhNsyxtSEqLfEdMlGVGdDbbe7L5Ec=",
   },
 ];
 
