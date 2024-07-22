@@ -22,7 +22,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am full- stack developer and i studied at university of sri jayawardhanapura ,sri lanaka. <br className='sm:block hidden' />
-            interfaces and web applications
+            and also i can develope ios pp and react js web application
           </p>
         </div>
       </div>
