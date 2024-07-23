@@ -191,6 +191,22 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://media.istockphoto.com/id/1513285157/photo/leader-ceo-and-manager-in-a-boardroom-meeting-with-his-team-for-planning-strategy-and.jpg?s=612x612&w=0&k=20&c=5pazFxAN8yRzwVdhNsyxtSEqLfEdMlGVGdDbbe7L5Ec=",
   },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://media.istockphoto.com/id/1499761455/photo/portrait-of-smiling-50s-stylish-confident-mature-businesswoman-middle-aged-company-ceo.jpg?s=612x612&w=0&k=20&c=rZmKoShimq1enUcdJveCEAe3OxE-cwgKw8moRx_1pvo=",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://media.istockphoto.com/id/1499761455/photo/portrait-of-smiling-50s-stylish-confident-mature-businesswoman-middle-aged-company-ceo.jpg?s=612x612&w=0&k=20&c=rZmKoShimq1enUcdJveCEAe3OxE-cwgKw8moRx_1pvo=",
+  },
 ];
 
 const projects = [
@@ -214,6 +230,27 @@ const projects = [
     ],
     image: food,
     source_code_link: "https://github.com/Sandalu01/Food-Order-App",
+  },
+  {
+    name: "Apple Frameworks ",
+    description:
+      "This SwiftUI project displays various Apple frameworks in a grid layout. When a framework is selected, it shows detailed information about the framework.",
+    tags: [
+      {
+        name: "SwiftUI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fire-base",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Swift",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: modern,
+    source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
   {
     name: "Apple Frameworks ",
