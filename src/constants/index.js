@@ -232,25 +232,26 @@ const projects = [
     source_code_link: "https://github.com/Sandalu01/Food-Order-App",
   },
   {
-    name: "Apple Frameworks ",
+    name: "Mobile-selling ",
     description:
-      "This SwiftUI project displays various Apple frameworks in a grid layout. When a framework is selected, it shows detailed information about the framework.",
+      "Welcome to MobileMart, your one-stop shop for the latest mobile phones. This web application is built with React and Bootstrap to provide a seamless user experience for browsing and purchasing mobile phones",
+
     tags: [
       {
-        name: "SwiftUI",
+        name: "React-js",
         color: "blue-text-gradient",
       },
       {
-        name: "fire-base",
+        name: "Mongo-DB",
         color: "green-text-gradient",
       },
       {
-        name: "Swift",
+        name: "Html,css",
         color: "pink-text-gradient",
       },
     ],
     image: modern,
-    source_code_link: "https://github.com/Sandalu01/Apple-Framework",
+    source_code_link: "https://github.com/Sandalu01/Mobile-selling",
   },
   {
     name: "Apple Frameworks ",
