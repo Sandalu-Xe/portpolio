@@ -13,9 +13,9 @@ const Computers = ({ isMobile }) => {
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
-        angle={0.12}
+        angle={0.1}
         penumbra={1}
-        intensity={1}
+        intensity={10}
         castShadow
         shadow-mapSize={1024}
       />
@@ -34,10 +34,10 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
 
-    // Set the initial value of the `isMobile` state variable
+    const mediaQuery = window.matchMedia("(max-width: 100px)");
+
+   
     setIsMobile(mediaQuery.matches);
 
     // Define a callback function to handle changes to the media query
