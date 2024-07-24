@@ -37,6 +37,7 @@ import font from "./font.png";
 import whetherapp from "./whetherapp.png"
 import modern from "./modern.png"
 import food from "./food.png"
+import mobilemart from "./mobilemart.png"
 
 export {
   font,
@@ -47,6 +48,7 @@ export {
   whetherapp,
   modern,
   food,
+  mobilemart,
 
   backend,
   creator,
