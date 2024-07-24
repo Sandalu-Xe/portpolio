@@ -29,6 +29,7 @@ import {
   whetherapp,
   modern,
 food,
+mobilemart,
 
 } from "../assets";
 
@@ -250,7 +251,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: modern,
+    image: mobilemart,
     source_code_link: "https://github.com/Sandalu01/Mobile-selling",
   },
   {
