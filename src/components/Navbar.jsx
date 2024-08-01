@@ -39,12 +39,12 @@ const Navbar = () => {
           className='flex items-center gap-2'
           onClick={() => {
             setActive("");
-            window.scrollTo(0, 0);
+            window.scrollTo(0, 0);S
           }}
         >
-          <img src={sandalu} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={sandalu} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            sandalu &nbsp;
+            Sandalu &nbsp;
             <span className='sm:block hidden'> Thushan Ekanayaka</span>
           </p>
         </Link>
