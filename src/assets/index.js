@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import sun from "./sun.svg";
 import thushan from "./thushan.svg";
+import sandalu from "./sandalu.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -45,6 +46,7 @@ export {
   logo,
   sun,
   thushan,
+  sandalu,
   whetherapp,
   modern,
   food,
