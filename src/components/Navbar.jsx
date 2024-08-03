@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={sandalu} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Sandalu &nbsp;
-            <span className='sm:block hidden'> Thushan Ekanayaka</span>
+            <span className='sm:block hidden'> Thushan</span>
           </p>
         </Link>
 
