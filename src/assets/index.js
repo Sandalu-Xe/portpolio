@@ -9,6 +9,7 @@ import close from "./close.svg";
 import sun from "./sun.svg";
 import thushan from "./thushan.svg";
 import sandalu from "./sandalu.svg";
+import ekanayaka from "./ekanayaka.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -47,6 +48,7 @@ export {
   sun,
   thushan,
   sandalu,
+  ekanayaka,
   whetherapp,
   modern,
   food,
