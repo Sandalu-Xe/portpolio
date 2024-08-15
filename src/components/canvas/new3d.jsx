@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const new3d = () => {
+const Earth = () => {
   const earth = useGLTF("./16-3d-model/scene.gltf");
 
   return (
@@ -12,7 +12,7 @@ const new3d = () => {
   );
 };
 
-const Canvas = () => {
+const EarthCanvas = () => {
   return (
     <Canvas
       shadows
@@ -34,7 +34,6 @@ const Canvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <Earth />
-        
 
         <Preload all />
       </Suspense>
