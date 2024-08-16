@@ -5,8 +5,8 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+const Astronomy = ({ isMobile }) => {
+  const astronomy = useGLTF("./Asrtonomy_man/scene.gltf");
 
   return (
     <mesh>
@@ -32,7 +32,7 @@ const Computers = ({ isMobile }) => {
   );
 };
 
-const ComputersCanvas = () => {
+const AstronomyCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -78,4 +78,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+export default AstronomyCanvas;
