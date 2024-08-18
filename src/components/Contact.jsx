@@ -140,12 +140,6 @@ const Contact = () => {
       
     </div>
 
-    <div>
-          sandalu thushan ekanaya
-          <AstronomyCanvas/>
-          
-    </div>
-
   </>
   
   );
