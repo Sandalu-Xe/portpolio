@@ -70,7 +70,7 @@ const Contact = () => {
       );
   };
 
-  return (
+  return (<>
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -133,11 +133,21 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        {/* <EarthCanvas /> */}
-        <AstronomyCanvas/>
-        
+        <EarthCanvas />
       </motion.div>
+    
+
+      
     </div>
+
+    <div>
+          sandalu thushan ekanaya
+          <AstronomyCanvas/>
+          
+    </div>
+
+  </>
+  
   );
 };
 
