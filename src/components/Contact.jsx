@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import AstronomyCanvas from "./canvas/Astronomy";
+import AnimationCanvas from "./canvas/Animation";
 
 const Contact = () => {
   const formRef = useRef();
@@ -69,7 +71,7 @@ const Contact = () => {
       );
   };
 
-  return (
+  return (<>
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -132,9 +134,42 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        <EarthCanvas />
+
+     <AnimationCanvas/>
+     
+
+        
       </motion.div>
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+      >
+
+     <AstronomyCanvas/>
+     
+
+        
+      </motion.div>
+           
+  
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+      >
+
+     <EarthCanvas/>
+     
+
+        
+      </motion.div>
+      
+    
+
+      
     </div>
+
+  </>
+  
   );
 };
 

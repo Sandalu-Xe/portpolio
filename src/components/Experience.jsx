@@ -13,6 +13,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -82,5 +83,6 @@ const Experience = () => {
     </>
   );
 };
+
 
 export default SectionWrapper(Experience, "work");
