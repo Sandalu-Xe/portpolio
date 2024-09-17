@@ -135,7 +135,7 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
 
-     <AnimationCanvas/>
+<EarthCanvas/>
      
 
         
@@ -144,34 +144,8 @@ const Contact = () => {
       
     </div>
 
-    <div className="div">
-    <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-
-     <EarthCanvas/>
-     
-
-        
-      </motion.div>
 
 
-
-    </div>
-
-    <div>
-    <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-
-     <AstronomyCanvas/>
-     
-
-        
-      </motion.div>
-    </div>
 
   </>
   
