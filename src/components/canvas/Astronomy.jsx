@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Star = () => {
-  // Assuming you have a 3D model for a star or galaxy located in the public folder
+ 
   const star = useGLTF("./Asrtonomy_man/scene.gltf");
 
   return (
