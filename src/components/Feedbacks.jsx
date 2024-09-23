@@ -33,7 +33,6 @@ const FeedbackCard = ({
             {designation} of {company}
           </p>
         </div>
-
         <img
           src={image}
           alt={`feedback_by-${name}`}
@@ -64,7 +63,7 @@ const Feedbacks = () => {
         ))}
       </div>
     </div>
-    
+  
       </>
   );
 };
