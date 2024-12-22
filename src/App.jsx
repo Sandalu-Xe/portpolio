@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import Education from "./components/Education";
 
 const App = () =>{
 
@@ -13,6 +14,7 @@ const App = () =>{
       </div>
       <About />
       <Experience />
+      <Education/>
       <Tech />
       <Works />
       <Feedbacks />

@@ -44,7 +44,7 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
-          </div>
+          </div>a
         </div>
 
         <div className='mt-5'>
@@ -72,7 +72,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Personal Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -94,6 +94,8 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      
     </>
   );
 };

@@ -43,9 +43,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "education",
+    title: "Education",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
+ 
 ];
 
 const services = [
@@ -116,6 +121,32 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+];
+export const education = [
+  {
+    date: "2015 - 2019",
+    degree: "Bachelor of Science in Computer Science",
+    institution_name: "ABC University",
+    icon: "/path/to/icon.png",
+    iconBg: "#23395d",
+    points: [
+      "Graduated with honors in Computer Science.",
+      "Participated in various coding competitions and hackathons.",
+      "Developed a thesis project on machine learning applications.",
+    ],
+  },
+  {
+    date: "2013 - 2015",
+    degree: "High School Diploma",
+    institution_name: "XYZ High School",
+    icon: "/path/to/icon.png",
+    iconBg: "#ff5733",
+    points: [
+      "Excelled in mathematics and computer science.",
+      "Member of the school's robotics club.",
+      "Participated in national-level science fairs.",
+    ],
   },
 ];
 
@@ -275,6 +306,7 @@ const projects = [
     image: modern,
     source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
+  
   {
     name: "Weather App",
     description:
