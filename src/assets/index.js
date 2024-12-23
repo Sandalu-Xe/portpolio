@@ -30,6 +30,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+
+import japura from "./education/japura.png";
+import TMV from "./education/TMV.png";
+import dev from "./education/dev.png";
+
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -81,4 +87,8 @@ export {
   jobit,
   tripguide,
   iosdeveloper,
+
+  japura,
+  TMV,
+  dev,
 };

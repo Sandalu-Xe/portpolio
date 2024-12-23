@@ -30,6 +30,9 @@ import {
   modern,
 food,
 mobilemart,
+TMV,
+japura,
+dev,
 
 } from "../assets";
 
@@ -129,23 +132,36 @@ const technologies = [
 ];
 export const education = [
   {
-    date: "2015 - 2019",
-    degree: "Bachelor of Science in Computer Science",
-    institution_name: "ABC University",
-    icon: "/path/to/icon.png",
-    iconBg: "#23395d",
+    date: "2007-2020",
+    degree: "Engineering Technology ",
+    institution_name: "A/Thalawa Maha Vidyalaya",
+    icon:TMV,
+    iconBg: "#ffffff",
     points: [
-      "Graduated with honors in Computer Science.",
-      "Participated in various coding competitions and hackathons.",
-      "Developed a thesis project on machine learning applications.",
+      "Engineering Technology - B",
+      "Science for Technology - B",
+      "Information  & Communication Technology - B",
+    ],
+   
+  },
+  {
+    date: "2023-2024 ",
+    degree: "Master programme diploma",
+    institution_name: "Developer Stack Acedamy",
+    icon: dev,
+    iconBg: "#ffffff",
+    points: [
+      "Learned java,java fx,java application",
+      "React,Mysql,Node js",
+      "Participated in national-level science fairs.",
     ],
   },
   {
-    date: "2013 - 2015",
-    degree: "High School Diploma",
-    institution_name: "XYZ High School",
-    icon: "/path/to/icon.png",
-    iconBg: "#ff5733",
+    date: "2021 - 2025",
+    degree: "Bachelor of Information and Communication Tech. Honors",
+    institution_name: "Faculty Of Technology,University of Sri jayawardhenepura",
+    icon: japura,
+    iconBg: "#ffffff",
     points: [
       "Excelled in mathematics and computer science.",
       "Member of the school's robotics club.",
@@ -159,7 +175,7 @@ const experiences = [
     title: "React.js Developer",
     company_name: "Starbucks",
     icon: starbucks,
-    iconBg: "#383E56",
+    iconBg: "#383E6",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",

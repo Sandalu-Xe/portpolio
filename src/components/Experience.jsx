@@ -3,7 +3,8 @@ import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+} 
+from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
@@ -21,6 +22,7 @@ const ExperienceCard = ({ experience }) => {
         background: "#1d1836",
         color: "#fff",
       }}
+
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
@@ -83,6 +85,4 @@ const Experience = () => {
     </>
   );
 };
-
-
 export default SectionWrapper(Experience, "work");
