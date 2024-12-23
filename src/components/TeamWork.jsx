@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { teamworks } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -67,7 +67,7 @@ const ProjectCard = ({
   );
 };
 
-const Works = () => {
+const TeamWork = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -90,7 +90,7 @@ const Works = () => {
       </div>
 
       <div className='mt-10 flex flex-wrap '>
-        {projects.map((project, index) => (
+        {teamworks.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
@@ -98,4 +98,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "project");
+export default SectionWrapper(TeamWork, "project");

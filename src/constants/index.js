@@ -350,4 +350,53 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const teamworks = [
+  {
+    name: "Food Order-App",
+    description:
+      "This is a food ordering application built using the Anguler framework. The app allows users to register, log in ,location, view new products, browse the home page, contact support, and learn about the app. ",
+    tags: [
+      {
+        name: "Anguler",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fire-base",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css,scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: food,
+    source_code_link: "https://github.com/Sandalu01/Food-Order-App",
+  },
+  {
+    name: "Mobile-selling ",
+    description:
+      "Welcome to MobileMart, your one-stop shop for the latest mobile phones. This web application is built with React and Bootstrap to provide a seamless user experience for browsing and purchasing mobile phones",
+
+    tags: [
+      {
+        name: "React-js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongo-DB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Html,css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mobilemart,
+    source_code_link: "https://github.com/Sandalu01/Mobile-selling",
+  },
+];
+
+
+
+
+export { services, technologies, experiences, testimonials, projects ,teamworks};
