@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, } from "./components";
 import Education from "./components/Education";
 import TeamWork from "./components/TeamWork";
+import Footer from "./components/Footer";
 const App = () =>{
 
   return (
@@ -21,6 +22,7 @@ const App = () =>{
 
       <div className='relative z-0'>
         <Contact />
+        <Footer/>
         <StarsCanvas />
       </div>
     </div>
