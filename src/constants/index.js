@@ -379,7 +379,7 @@ const teamworks = [
   },
 
   {
-    name: "Real Time Train Tracking System ",
+    name: "Real-Time Train Monitoring System",
     description:
       "1.Developed a robust hardware solution using the ESP32 microcontroller and GPS module for precise train tracking.Established a secure communication protocol between the hardware and web application.",
     tags: [
@@ -397,7 +397,7 @@ const teamworks = [
       },
     ],
     image: mobilemart,
-    source_code_link: "https://github.com/Sandalu01/Mobile-selling",
+    source_code_link: "https://github.com/Ravana-ac",
   },
 ];
 
