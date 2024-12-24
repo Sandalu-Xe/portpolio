@@ -11,6 +11,8 @@ import thushan from "./thushan.svg";
 import sandalu from "./sandalu.svg";
 
 
+
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -34,6 +36,7 @@ import tesla from "./company/tesla.png";
 import japura from "./education/japura.png";
 import TMV from "./education/TMV.png";
 import dev from "./education/dev.png";
+import weblink from "./weblink.png";
 
 
 import carrent from "./carrent.png";
@@ -46,6 +49,8 @@ import whetherapp from "./whetherapp.png"
 import modern from "./modern.png"
 import food from "./food.png"
 import mobilemart from "./mobilemart.png"
+
+import reserve from "./team/reserve.png"
 
 export {
   font,
@@ -64,6 +69,7 @@ export {
   mobile,
   web,
   github,
+  weblink,
   menu,
   close,
   css,
@@ -91,4 +97,7 @@ export {
   japura,
   TMV,
   dev,
+
+  reserve,
+ 
 };

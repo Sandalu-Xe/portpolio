@@ -28,12 +28,14 @@ import {
   font,
   whetherapp,
   modern,
-  
+
 food,
 mobilemart,
 TMV,
 japura,
 dev,
+reserve,
+weblink,
 
 } from "../assets";
 
@@ -353,31 +355,33 @@ const projects = [
 
 const teamworks = [
   {
-    name: "Food Order-App",
+    name: "Reserve Tt",
     description:
-      "This is a food ordering application built using the Anguler framework. The app allows users to register, log in ,location, view new products, browse the home page, contact support, and learn about the app. ",
+      " this is a classromm booking system lecture can reserve class room accourding to their needs",
+   
     tags: [
       {
-        name: "Anguler",
+        name: "next js",
         color: "blue-text-gradient",
       },
       {
-        name: "fire-base",
+        name: "Mongo DB",
         color: "green-text-gradient",
       },
       {
-        name: "css,scss",
+        name: "Tailwind css,Aws",
         color: "pink-text-gradient",
       },
     ],
-    image: food,
-    source_code_link: "https://github.com/Sandalu01/Food-Order-App",
+    image: reserve,
+    source_code_link: "https://github.com/RavanaDevs/classroom-booking-system",
+    webpage : "https://classroom-booking-system-mu.vercel.app/",
   },
-  {
-    name: "Mobile-selling ",
-    description:
-      "Welcome to MobileMart, your one-stop shop for the latest mobile phones. This web application is built with React and Bootstrap to provide a seamless user experience for browsing and purchasing mobile phones",
 
+  {
+    name: "Real Time Train Tracking System ",
+    description:
+      "1.Developed a robust hardware solution using the ESP32 microcontroller and GPS module for precise train tracking.Established a secure communication protocol between the hardware and web application.",
     tags: [
       {
         name: "React-js",
