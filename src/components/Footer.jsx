@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import whatsapp from "../assets/social/whatsapp.png"
-import instagram from "../assets/social/instragram.jpeg"
-// Replace with the correct path to your icons
+import whatsapp from "../assets/social/whatsapp.png";
+import instagram from "../assets/social/instagram.png";
+import linkedin from "../assets/social/linkedin.png";
+import github from "../assets/social/github.png"; // Add GitHub icon
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex gap-6">
           <a
-            href="https://wa.me/yourwhatsapplink" // Replace with your WhatsApp link
+            href="https://wa.link/6dl0v9" // Replace with your WhatsApp link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-white text-[18px] hover:text-secondary"
@@ -37,17 +37,30 @@ const Footer = () => {
             Instagram
           </a>
           <a
-            href="https://www.linkedin.com/in/yourusername" // Replace with your LinkedIn link
+            href="https://www.linkedin.com/in/sandalu/" // Replace with your LinkedIn link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-white text-[18px] hover:text-secondary"
           >
             <img
-              src={whatsapp}
+              src={linkedin}
               alt="LinkedIn"
               className="w-6 h-6 object-contain"
             />
             LinkedIn
+          </a>
+          <a
+            href="https://github.com/Sandalu-Xe" // Replace with your GitHub link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-white text-[18px] hover:text-secondary"
+          >
+            <img
+              src={github}
+              alt="GitHub"
+              className="w-6 h-6 object-contain"
+            />
+            GitHub
           </a>
         </div>
       </div>
