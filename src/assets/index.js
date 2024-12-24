@@ -39,6 +39,7 @@ import dev from "./education/dev.png";
 import weblink from "./weblink.png";
 
 
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -51,6 +52,7 @@ import food from "./food.png"
 import mobilemart from "./mobilemart.png"
 
 import reserve from "./team/reserve.png"
+import realtime from "./team/realtime.png";
 
 export {
   font,
@@ -99,5 +101,7 @@ export {
   dev,
 
   reserve,
+  realtime,
+  
  
 };

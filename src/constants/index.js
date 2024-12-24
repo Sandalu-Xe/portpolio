@@ -36,6 +36,7 @@ japura,
 dev,
 reserve,
 weblink,
+realtime,
 
 } from "../assets";
 
@@ -392,11 +393,11 @@ const teamworks = [
         color: "green-text-gradient",
       },
       {
-        name: "Html,css",
+        name: "React-boostrap,tailwind css",
         color: "pink-text-gradient",
       },
     ],
-    image: mobilemart,
+    image: realtime,
     source_code_link: "https://github.com/Ravana-ac",
   },
 ];
