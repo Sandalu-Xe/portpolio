@@ -24,7 +24,7 @@ const Footer = () => {
             WhatsApp
           </a>
           <a
-            href="https://www.instagram.com/yourusername" // Replace with your Instagram link
+            href="https://www.instagram.com/sandalu_x/" // Replace with your Instagram link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-white text-[18px] hover:text-secondary"
