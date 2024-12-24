@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="w-full bg-primary py-6">
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-4 px-6 text-center">
         {/* Social Links */}
-        <div className="flex gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           <a
             href="https://wa.link/6dl0v9" // Replace with your WhatsApp link
             target="_blank"
