@@ -46,7 +46,6 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
-
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
@@ -71,8 +70,8 @@ const TeamWork = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Personal Projects.</h2>
+  
+        <h2 className={`${styles.sectionHeadText}`}>Group Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,12 +79,9 @@ const TeamWork = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          i am sandalu Thushan ekanayaka
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.i am also have developed swift-ui app like whether app
+         I have done  some project with my university friends. 
+         I have got more expirience about team work and we have used project management tools like gira 
+         ,click up 
         </motion.p>
       </div>
 

@@ -28,6 +28,7 @@ import {
   font,
   whetherapp,
   modern,
+  
 food,
 mobilemart,
 TMV,
@@ -66,7 +67,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Fontend Developer",
+    title: "Web Application Developer",
     icon: font,
   },
   {
@@ -75,7 +76,7 @@ const services = [
   },
  
   {
-    title: "Ios developer",
+    title: "Swift Ui Developer",
     icon: iosdeveloper,
   },
 ];
@@ -211,7 +212,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "not yet",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
