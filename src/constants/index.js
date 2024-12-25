@@ -358,7 +358,8 @@ const teamworks = [
   {
     name: "Reserve Tt",
     description:
-      " this is a classromm booking system lecture can reserve class room accourding to their needs",
+      "The current classroom reservation at the university relies on manual management using Excel sheets, leading to scheduling conflicts, double bookings, and a lack of realtime  The Reserve-It system aims to resolve these problems by offering a centralized, web-based platform that vprevents double bookings, and provides real-time access to reservation information. This will streamline classroom management, reduce workload, and enhance transparency."
+ ,
    
     tags: [
       {
