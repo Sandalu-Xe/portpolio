@@ -41,7 +41,7 @@ const Footer = () => {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col items-center gap-2 text-white text-[16px] font-medium hover:text-blue-600 transition-all duration-300"
+              className="group flex flex-col items-center gap-2 text-white text-[16px] font-medium hover:text-purple-600 transition-all duration-300"
             >
               <img
                 src={imgSrc}
