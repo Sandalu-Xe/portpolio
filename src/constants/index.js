@@ -383,7 +383,8 @@ const teamworks = [
   {
     name: "Real-Time Train Monitoring System",
     description:
-      "1.Developed a robust hardware solution using the ESP32 microcontroller and GPS module for precise train tracking.Established a secure communication protocol between the hardware and web application.",
+      " Developing a robust hardware solution using the ESP32 microcontroller and GPS module for accurate train tracking. Creating a web-based application to visualize real-time train information and expected arrival times.Establishing a secure and efficient communication protocol between the device and the web application. Conducting thorough testing to ensure the reliability and scalability of the system. Deploying the solution on a limited scale to gauge its effectiveness and gather user feedback.",
+
     tags: [
       {
         name: "React-js",
