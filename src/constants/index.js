@@ -37,6 +37,7 @@ dev,
 reserve,
 weblink,
 realtime,
+object,
 
 } from "../assets";
 
@@ -288,17 +289,17 @@ const projects = [
     source_code_link: "https://github.com/Sandalu01/Food-Order-App",
   },
   {
-    name: "Mobile-selling ",
+    name: "Object Detection ",
     description:
-      "Welcome to MobileMart, your one-stop shop for the latest mobile phones. This web application is built with React and Bootstrap to provide a seamless user experience for browsing and purchasing mobile phones",
-
+      "The model leverages a MobileNet architecture, known for its efficiency, especially on mobile devices. The COCO dataset, a large-scale object detection, segmentation, and captioning dataset, is used for training and evaluation,when we insert the video clip into the object detection model it identifies the objects that have in the videos like persons,vehicles,and others."
+ , 
     tags: [
       {
-        name: "React-js",
+        name: "Jupyter Notebook,google collabse",
         color: "blue-text-gradient",
       },
       {
-        name: "Mongo-DB",
+        name: "python,cocoma mode",
         color: "green-text-gradient",
       },
       {
@@ -306,8 +307,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: mobilemart,
-    source_code_link: "https://github.com/Sandalu01/Mobile-selling",
+    image: object,
+    source_code_link: "https://github.com/Sandalu-Xe/Object-detection",
   },
   {
     name: "Apple Frameworks ",
@@ -387,15 +388,15 @@ const teamworks = [
 
     tags: [
       {
-        name: "React-js",
+        name: "GPS,ESP32,keypad,Node Mcu,Lcd Dispaly",
         color: "blue-text-gradient",
       },
       {
-        name: "Mongo-DB",
+        name: "Mongo-DB ,Linode",
         color: "green-text-gradient",
       },
       {
-        name: "React-boostrap,tailwind css",
+        name: "React-boostrap,tailwind css,Ract,NodeJS",
         color: "pink-text-gradient",
       },
     ],
