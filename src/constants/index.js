@@ -138,8 +138,8 @@ const technologies = [
 export const education = [
   {
     date: "2007-2020",
-    degree: "Engineering Technology ",
-    institution_name: "A/Thalawa Maha Vidyalaya",
+    degree: "A/L Engineering Technology Steam ",
+    institution_name: "A/Thalawa National School ",
     icon:TMV,
     iconBg: "#ffffff",
     points: [
@@ -156,21 +156,21 @@ export const education = [
     icon: dev,
     iconBg: "#ffffff",
     points: [
-      "Learned java,java fx,java application",
+      "Learned java,java fx and java application",
       "React,Mysql,Node js",
-      "Participated in national-level science fairs.",
+      "developed inonic mobile applications",
     ],
   },
   {
     date: "2021 - 2025",
-    degree: "Bachelor of Information and Communication Tech. Honors",
+    degree: "Bachelor of Information and Communication Tech. Honors(Specialized in Software)",
     institution_name: "Faculty Of Technology,University of Sri jayawardhenepura",
     icon: japura,
     iconBg: "#ffffff",
     points: [
       "Excelled in mathematics and computer science.",
-      "Member of the school's robotics club.",
-      "Participated in national-level science fairs.",
+      "Member of ICTS at Faculty Of Technology.",
+      "Member of Astronomy club at University of Sri jayawardhenepura",
     ],
   },
 ];
@@ -178,10 +178,10 @@ export const education = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "................................................................",
     icon: starbucks,
     iconBg: "#383E6",
-    date: "March 2020 - April 2021",
+    date: "March 2### - April 2###",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -191,10 +191,10 @@ const experiences = [
   },
   {
     title: "ios-App Developer",
-    company_name: "Tesla",
+    company_name: "................................................................",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 20### - Feb 20###",
     points: [
       "Developing and maintaining applications using SwiftUI and other related technologies: Focus on creating and updating applications for iOS and macOS using SwiftUI, ensuring modern and efficient UI design.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products: Work closely with various teams to ensure the development of cohesive and high-quality applications that meet user and business needs",
@@ -204,10 +204,10 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "................................................................",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 20### - Jan 20###",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -217,10 +217,10 @@ const experiences = [
   },
   {
     title: "not yet",
-    company_name: "Meta",
+    company_name: "..............S",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 20#### - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
