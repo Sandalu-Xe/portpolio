@@ -86,6 +86,10 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "figma",
+    icon: figma,
+  },
 
   {
     name: "Tailwind CSS",
