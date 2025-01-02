@@ -2,7 +2,6 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
@@ -18,9 +17,7 @@ const Computers = ({ isMobile }) => {
         intensity={1}
         castShadow
         shadow-mapSize={1024}
-      
       />
-    
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
