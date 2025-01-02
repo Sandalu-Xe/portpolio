@@ -86,11 +86,20 @@ const services = [
 ];
 
 const technologies = [
+
   {
-    name: "figma",
-    icon: figma,
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
   },
 
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -103,22 +112,12 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 export const education = [
   {
