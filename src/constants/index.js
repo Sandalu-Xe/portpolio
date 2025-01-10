@@ -271,9 +271,12 @@ const projects = [
   },
   {
     name: "Object Detection ",
-    description:
-      "The model leverages a MobileNet architecture, known for its efficiency, especially on mobile devices. The COCO dataset, a large-scale object detection, segmentation, and captioning dataset, is used for training and evaluation,when we insert the video clip into the object detection model it identifies the objects that have in the videos like persons,vehicles,and others."
- , 
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
     tags: [
       {
         name: "Jupyter Notebook,google collabse",
@@ -364,9 +367,13 @@ const teamworks = [
 
   {
     name: "Real-Time Train Monitoring System",
-    description:
-      " Developing a robust hardware solution using the ESP32 microcontroller and GPS module for accurate train tracking. Creating a web-based application to visualize real-time train information and expected arrival times.Establishing a secure and efficient communication protocol between the device and the web application. Conducting thorough testing to ensure the reliability and scalability of the system. Deploying the solution on a limited scale to gauge its effectiveness and gather user feedback.",
-
+  
+  points: [
+    "Developing and maintaining web applications using React.js and other related technologies.",
+    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    "Implementing responsive design and ensuring cross-browser compatibility.",
+    "Participating in code reviews and providing constructive feedback to other developers.",
+  ],
     tags: [
       {
         name: "GPS,ESP32,keypad,Node Mcu,Lcd Dispaly",
