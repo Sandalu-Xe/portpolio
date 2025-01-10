@@ -211,7 +211,41 @@ const experiences = [
   },
 ];
 
+const testimonials = [
 
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://media.istockphoto.com/id/1499761455/photo/portrait-of-smiling-50s-stylish-confident-mature-businesswoman-middle-aged-company-ceo.jpg?s=612x612&w=0&k=20&c=rZmKoShimq1enUcdJveCEAe3OxE-cwgKw8moRx_1pvo=",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://media.istockphoto.com/id/1513285157/photo/leader-ceo-and-manager-in-a-boardroom-meeting-with-his-team-for-planning-strategy-and.jpg?s=612x612&w=0&k=20&c=5pazFxAN8yRzwVdhNsyxtSEqLfEdMlGVGdDbbe7L5Ec=",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://media.istockphoto.com/id/1499761455/photo/portrait-of-smiling-50s-stylish-confident-mature-businesswoman-middle-aged-company-ceo.jpg?s=612x612&w=0&k=20&c=rZmKoShimq1enUcdJveCEAe3OxE-cwgKw8moRx_1pvo=",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://media.istockphoto.com/id/1499761455/photo/portrait-of-smiling-50s-stylish-confident-mature-businesswoman-middle-aged-company-ceo.jpg?s=612x612&w=0&k=20&c=rZmKoShimq1enUcdJveCEAe3OxE-cwgKw8moRx_1pvo=",
+  },
+];
 
 const projects = [
   {
