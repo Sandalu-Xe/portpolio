@@ -16,6 +16,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   webpage,
+  points,
   
 
 
@@ -77,6 +78,17 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        
+        <ul className="mt-5 list-disc ml-5 space-y-2">
+          {points.map((point, index) => (
+            <li
+              key={`project-point-${index}`}
+              className="text-white-100 text-[14px] pl-1 tracking-wider"
+            >
+              {point}
+            </li>
+          ))}
+        </ul>
      
         
     

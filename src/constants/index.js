@@ -375,6 +375,11 @@ const teamworks = [
         color: "pink-text-gradient",
       },
     ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
     image: reserve,
     source_code_link: "https://github.com/RavanaDevs/classroom-booking-system",
     webpage : "https://classroom-booking-system-mu.vercel.app/",
@@ -397,6 +402,11 @@ const teamworks = [
         name: "React-boostrap,tailwind css,Ract,NodeJS",
         color: "pink-text-gradient",
       },
+    ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
     ],
     image: realtime,
     source_code_link: "https://github.com/Ravana-ac",
