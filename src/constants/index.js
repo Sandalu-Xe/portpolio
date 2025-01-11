@@ -266,17 +266,17 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
     image: food,
     source_code_link: "https://github.com/Sandalu01/Food-Order-App",
   },
   {
     name: "Object Detection ",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    description:"kjnjkrnjnjknkjrnkjnjknkjn",
     tags: [
       {
         name: "Jupyter Notebook,google collabse",
@@ -290,6 +290,11 @@ const projects = [
         name: "Html,css",
         color: "pink-text-gradient",
       },
+    ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
     ],
     image: object,
     source_code_link: "https://github.com/Sandalu-Xe/Object-detection",
@@ -312,6 +317,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
     image: modern,
     source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
@@ -333,6 +343,11 @@ const projects = [
         name: "Swift",
         color: "pink-text-gradient",
       },
+    ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
     ],
     image: whetherapp,
     source_code_link: "https://github.com/Sandalu01/Weather-App",
@@ -368,12 +383,7 @@ const teamworks = [
   {
     name: "Real-Time Train Monitoring System",
   
-  points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
-  ],
+
     tags: [
       {
         name: "GPS,ESP32,keypad,Node Mcu,Lcd Dispaly",
