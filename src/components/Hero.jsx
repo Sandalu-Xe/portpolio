@@ -22,16 +22,15 @@ const Hero = () => {
             Hi, I'm <span className='text-[#9537c0]'>Sandalu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am from Anuradhapura and i Studied at A/ Thalawa National School and 
-            undergradute student at Faculty of Technology  univesity of Sri Jayawardhenapura. <br className='sm:block hidden' />
+          Hi, I’m Sandalu Thushan Ekanayaka, an undergraduate from the Faculty of Technology at the University of Sri Jayewardenepura. As a passionate developer, I specialize in building seamless and efficient applications that bridge robust backends with dynamic frontends. <br className='sm:block hidden' />
         <br className='sm:block hidden'/>
           </p>
         </div>
       </div>
 
      
-      
-      <ComputersCanvas/>
+<ComputersCanvas/>
+   
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
