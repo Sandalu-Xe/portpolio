@@ -417,7 +417,7 @@ const teamworks = [
         color: "pink-text-gradient",
       },
     ],
-    points: [
+    pointss: [
       "Created a sleek and intuitive user interface.",
       "Integrated API for real-time weather updates.",
       "Enhanced performance for a smooth user experience.",
@@ -445,7 +445,7 @@ const teamworks = [
         color: "pink-text-gradient",
       },
     ],
-    points: [
+    pointss: [
       "Created a sleek and intuitive user interface.",
       "Integrated API for real-time weather updates.",
       "Enhanced performance for a smooth user experience.",
