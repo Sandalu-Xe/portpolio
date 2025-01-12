@@ -296,11 +296,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // points: [
-    //   "Created a sleek and intuitive user interface.",
-    //   "Integrated API for real-time weather updates.",
-    //   "Enhanced performance for a smooth user experience.",
-    // ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
     image: object,
     source_code_link: "https://github.com/Sandalu-Xe/Object-detection",
   },
@@ -325,11 +325,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // points: [
-    //   "Created a sleek and intuitive user interface.",
-    //   "Integrated API for real-time weather updates.",
-    //   "Enhanced performance for a smooth user experience.",
-    // ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
     image: modern,
     source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
@@ -354,18 +354,18 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // points: [
-    //   "Created a sleek and intuitive user interface.",
-    //   "Integrated API for real-time weather updates.",
-    //   "Enhanced performance for a smooth user experience.",
-    // ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
     image: advance,
     source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
   
   {
     name: "Weather App",
-    points: [
+        points: [
       "Created a sleek and intuitive user interface.",
       "Integrated API for real-time weather updates.",
       "Enhanced performance for a smooth user experience.",
@@ -385,11 +385,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // points: [
-    //   "Created a sleek and intuitive user interface.",
-    //   "Integrated API for real-time weather updates.",
-    //   "Enhanced performance for a smooth user experience.",
-    // ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
+
     image: whetherapp,
     source_code_link: "https://github.com/Sandalu01/Weather-App",
   },
