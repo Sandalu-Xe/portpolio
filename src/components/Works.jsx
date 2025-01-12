@@ -11,11 +11,11 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ProjectCard = ({
   index,
   name,
-  description,
+  points,
   tags,
   image,
   source_code_link,
-  // points,
+ 
 
 }) => {
   return (
@@ -51,7 +51,16 @@ const ProjectCard = ({
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <ul className="mt-5 list-disc ml-5 space-y-2">
+          {points.map((point, index) => (
+            <li
+              key={`project-point-${index}`}
+              className="text-white-100 text-[14px] pl-1 tracking-wider"
+            >
+              {point}
+            </li>
+          ))}
+        </ul>
         </div>
        
 
@@ -66,16 +75,7 @@ const ProjectCard = ({
           ))}
         </div>
           {/* Bullet Points */}
-          {/* <ul className="mt-5 list-disc ml-5 space-y-2">
-          {points.map((point, index) => (
-            <li
-              key={`project-point-${index}`}
-              className="text-white-100 text-[14px] pl-1 tracking-wider"
-            >
-              {point}
-            </li>
-          ))}
-        </ul> */}
+  
       </Tilt>
     </motion.div>
   );

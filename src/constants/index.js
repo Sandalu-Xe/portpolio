@@ -251,8 +251,12 @@ const testimonials = [
 const projects = [
   {
     name: "Food Order-App",
-    description:
-      "This is a food ordering application built using the Anguler framework. The app allows users to register, log in ,location, view new products, browse the home page, contact support, and learn about the app. ",
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
+
     tags: [
       {
         name: "Anguler",
@@ -267,17 +271,17 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // points: [
-    //   "Created a sleek and intuitive user interface.",
-    //   "Integrated API for real-time weather updates.",
-    //   "Enhanced performance for a smooth user experience.",
-    // ],
+
     image: food,
     source_code_link: "https://github.com/Sandalu01/Food-Order-App",
   },
   {
     name: "Object Detection ",
-    description:"kjnjkrnjnjknkjrnkjnjknkjn",
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
     tags: [
       {
         name: "Jupyter Notebook,google collabse",
@@ -302,8 +306,11 @@ const projects = [
   },
   {
     name: "Apple Frameworks ",
-    description:
-      "This SwiftUI project displays various Apple frameworks in a grid layout. When a framework is selected, it shows detailed information about the framework.",
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
     tags: [
       {
         name: "SwiftUI",
@@ -328,8 +335,11 @@ const projects = [
   },
   {
     name: "Apple Frameworks ",
-    description:
-      "This SwiftUI project displays various Apple frameworks in a grid layout. When a framework is selected, it shows detailed information about the framework.",
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
     tags: [
       {
         name: "SwiftUI",
@@ -355,8 +365,12 @@ const projects = [
   
   {
     name: "Weather App",
-    description:
-      "A simple weather app built using SwiftUI that displays the current weather and forecast for a specific location.",
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
+    
     tags: [
       {
         name: "SwiftUI",
