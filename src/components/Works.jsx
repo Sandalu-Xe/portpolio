@@ -15,7 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
-  points,
+  // points,
 
 }) => {
   return (
@@ -66,7 +66,7 @@ const ProjectCard = ({
           ))}
         </div>
           {/* Bullet Points */}
-          <ul className="mt-5 list-disc ml-5 space-y-2">
+          {/* <ul className="mt-5 list-disc ml-5 space-y-2">
           {points.map((point, index) => (
             <li
               key={`project-point-${index}`}
@@ -75,7 +75,7 @@ const ProjectCard = ({
               {point}
             </li>
           ))}
-        </ul>
+        </ul> */}
       </Tilt>
     </motion.div>
   );
