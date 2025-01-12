@@ -38,6 +38,7 @@ reserve,
 weblink,
 realtime,
 object,
+advance
 
 } from "../assets";
 
@@ -323,6 +324,32 @@ const projects = [
       "Enhanced performance for a smooth user experience.",
     ],
     image: modern,
+    source_code_link: "https://github.com/Sandalu01/Apple-Framework",
+  },
+  {
+    name: "Apple Frameworks ",
+    description:
+      "This SwiftUI project displays various Apple frameworks in a grid layout. When a framework is selected, it shows detailed information about the framework.",
+    tags: [
+      {
+        name: "SwiftUI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fire-base",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Swift",
+        color: "pink-text-gradient",
+      },
+    ],
+    points: [
+      "Created a sleek and intuitive user interface.",
+      "Integrated API for real-time weather updates.",
+      "Enhanced performance for a smooth user experience.",
+    ],
+    image:  advance,
     source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
   

@@ -54,6 +54,7 @@ import mobilemart from "./mobilemart.png"
 import reserve from "./team/reserve.png"
 import realtime from "./team/realtime.png";
 import object from "./object.png"
+import advance from "./AdvancedAuth.png"
 
 export {
   font,
@@ -104,6 +105,7 @@ export {
   reserve,
   realtime,
   object,
+  
   
  
 };
