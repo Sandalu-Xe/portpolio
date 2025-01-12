@@ -349,7 +349,7 @@ const projects = [
       "Integrated API for real-time weather updates.",
       "Enhanced performance for a smooth user experience.",
     ],
-    image:  advance,
+    image: advance,
     source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
   
