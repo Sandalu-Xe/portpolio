@@ -51,7 +51,10 @@ const ProjectCard = ({
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <ul className="mt-5 list-disc ml-5 space-y-2">
+        </div>
+       
+       <div className="mt-4 flex flex-wrap gap-2'">
+       <ul className="mt-5 list-disc ml-5 space-y-2">
           {points.map((point, index) => (
             <li
               key={`project-point-${index}`}
@@ -61,8 +64,7 @@ const ProjectCard = ({
             </li>
           ))}
         </ul>
-        </div>
-       
+       </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
