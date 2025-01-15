@@ -22,7 +22,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#9537c0]'>Sandalu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Hi, I’m Sandalu Thushan Ekanayaka, an undergraduate from the Faculty of Technology at the University of Sri Jayewardenepura. As a passionate developer, I specialize in building seamless and efficient applications that bridge robust backends with dynamic frontends. <br className='sm:block hidden' />
+          I am a passionate developer with a focus on building efficient web applications. I specialize in frontend development using React, creating interactive and user-friendly interfaces, and backend development with Node.js and Express.js for building scalable, reliable server-side solutions.
+           <br className='sm:block hidden' />
         <br className='sm:block hidden'/>
           </p>
         </div>
