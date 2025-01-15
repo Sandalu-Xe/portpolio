@@ -46,13 +46,8 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      > I am Sandalu Thushan Ekanayaka,
-        BICT(Hons) in Software Technology (R) 
-        Undergraduate at the University of Sri Jayewardenepura, 
-        and expertise in frameworks like React, Node.js, and
-        Anguler. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      > I am Sandalu Thushan Ekanayaka, a dedicated and innovative undergraduate pursuing a Bachelor of Information and Communication Technology (Hons), specializing in Software Technology at the Faculty of Technology, University of Sri Jayewardenepura. Passionate about building user-friendly React.js applications and developing secure, scalable backend systems using Node.js and Express.js, I am driven to deliver impactful tech solutions.
+      With expertise in modern web development, SwiftUI, and project management, I bring a creative and problem-solving mindset to every task. I thrive in collaborative environments and enjoy applying cutting-edge technologies to real-world challenges
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
