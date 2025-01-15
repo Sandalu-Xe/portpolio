@@ -11,7 +11,6 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ProjectCard = ({
   index,
   name,
-
   tags,
   image,
   source_code_link,

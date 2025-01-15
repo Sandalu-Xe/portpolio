@@ -116,15 +116,15 @@ const technologies = [
 ];
 export const education = [
   {
-    date: "2007-2020",
+    date: "2018-2020",
     degree: "A/L Engineering Technology Steam ",
     institution_name: "A/Thalawa National School ",
     icon:TMV,
     iconBg: "#ffffff",
     points: [
-      "Engineering Technology - B",
-      "Science for Technology - B",
-      "Information  & Communication Technology - B",
+      "Engineering Technology ",
+      "Science for Technology ",
+      "Information  & Communication Technology",
     ],
    
   },
@@ -135,9 +135,9 @@ export const education = [
     icon: dev,
     iconBg: "#ffffff",
     points: [
-      "Learned java,java fx and java application",
-      "React,Mysql,Node js",
-      "developed inonic mobile applications",
+      "developed java and java-fx project",
+      "react , javascript and node js learned",
+      "developed inonic mobile applications and back end with  firebase",
     ],
   },
   {
@@ -147,7 +147,7 @@ export const education = [
     icon: japura,
     iconBg: "#ffffff",
     points: [
-      "Excelled in mathematics and computer science.",
+      "new ",
       "Member of ICTS at Faculty Of Technology.",
       "Member of Astronomy club at University of Sri jayawardhenepura",
     ],
@@ -161,45 +161,6 @@ const experiences = [
     icon: starbucks,
     iconBg: "#383E6",
     date: "March 2### - April 2###",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "ios-App Developer",
-    company_name: "................................................................",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 20### - Feb 20###",
-    points: [
-      "Developing and maintaining applications using SwiftUI and other related technologies: Focus on creating and updating applications for iOS and macOS using SwiftUI, ensuring modern and efficient UI design.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products: Work closely with various teams to ensure the development of cohesive and high-quality applications that meet user and business needs",
-      "Implementing responsive design and ensuring cross-device compatibility: Ensure the application interfaces are adaptive and function seamlessly across different iOS devices, providing a consistent user experience.",
-      "Participating in code reviews and providing constructive feedback to other developers: Engage in regular code reviews to maintain code quality and share insights, fostering a culture of continuous improvement and collaboration.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "................................................................",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 20### - Jan 20###",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "not yet",
-    company_name: "..............S",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 20#### - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -427,6 +388,7 @@ const teamworks = [
       },
     ],
     pointss: [
+      
       "Created a sleek and intuitive user interface.",
       "Integrated API for real-time weather updates.",
       "Enhanced performance for a smooth user experience.",
