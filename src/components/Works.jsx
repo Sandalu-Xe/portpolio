@@ -17,16 +17,19 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="w-full sm:w-[360px] md:w-[400px]"
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[200px] sm:h-[230px]">
           <img
             src={image}
             alt={`${name} project`}
@@ -47,13 +50,15 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <h3 className="text-white font-bold text-[20px] sm:text-[24px]">
+            {name}
+          </h3>
           {/* Points as a bulleted list */}
           <ul className="mt-3 list-disc ml-5 space-y-2">
             {points.map((point, idx) => (
               <li
                 key={`point-${idx}`}
-                className="text-secondary text-[14px] pl-1 tracking-wider"
+                className="text-secondary text-[12px] sm:text-[14px] pl-1 tracking-wider"
               >
                 {point}
               </li>
@@ -66,7 +71,7 @@ const ProjectCard = ({
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
+              className={`text-[12px] sm:text-[14px] ${tag.color}`}
             >
               #{tag.name}
             </p>
@@ -77,16 +82,13 @@ const ProjectCard = ({
   );
 };
 
-
 const Works = () => {
   return (
     <>
-     
-
-      <div className="w-full flex">
+      <div className="w-full flex flex-col items-center text-center">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[15px] sm:text-[17px] max-w-3xl leading-[25px] sm:leading-[30px]"
         >
           I am Sandalu Thushan Ekanayaka.  
           Following projects showcase my skills and experience through real-world examples of my work.  
@@ -96,7 +98,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-wrap">
+      <div className="mt-10 flex flex-wrap justify-center gap-5">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
