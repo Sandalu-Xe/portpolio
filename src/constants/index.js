@@ -210,9 +210,9 @@ const projects = [
   {
     name: "Food Order-App",
     points: [
-      "Developed using SwiftUI.",
-      "Displays current weather conditions and forecasts.",
-      "Integrates with OpenWeatherMap API for real-time data.",
+      "ionic mobile App ",
+      "used firebase storage for uploading  image and retrive",
+      "used firebase database for seving email and password",
     ],
 
     tags: [
@@ -236,22 +236,22 @@ const projects = [
   {
     name: "Object Detection ",
     points: [
-      "Developed using SwiftUI.",
-      "Displays current weather conditions and forecasts.",
-      "Integrates with OpenWeatherMap API for real-time data.",
+      "when we open the web camera of the devices",
+      "when insert vidoes object detected",
+      "The model identify the which types of objects of the pictures",
     ],
    
     tags: [
       {
         name: "Jupyter Notebook,google collabse",
-        color: "blue-text-gradient",
+        color: "blue-text-gradient"
       },
       {
         name: "python,cocoma model",
         color: "green-text-gradient",
       },
       {
-        name: "Html,css",
+        name: "COCO dataset",
         color: "pink-text-gradient",
       },
     ],
@@ -264,21 +264,21 @@ const projects = [
     points: [
       "Developed using SwiftUI.",
       "Displays current weather conditions and forecasts.",
-      "Integrates with OpenWeatherMap API for real-time data.",
+      "The model identify the which types of objects of the pictures.",
     ],
 
 
     tags: [
       {
-        name: "SwiftUI",
+        name: "SpriteKit..",
         color: "blue-text-gradient",
       },
       {
-        name: "Sf symbols",         
+        name: "SF Symbols",         
         color: "green-text-gradient",
       },
       {
-        name: "Swift",
+        name: "SwiftUI",
         color: "pink-text-gradient",
       },
     ],
@@ -287,30 +287,31 @@ const projects = [
     source_code_link: "https://github.com/Sandalu01/Apple-Framework",
   },
   {
-    name: "Apple Frameworks ",
+    name: "Advanced Authentication in react ",
     points: [
-      "Developed using SwiftUI.",
-      "Displays current weather conditions and forecasts.",
-      "Integrates with OpenWeatherMap API for real-time data.",
+      "Sending Verify Account Email,Verify Email Endpoint",
+      "Building a Welcome Email Template",
+      "Forgot Password Endpoint",
+      "Reset Password Endpoint.",
     ],
 
     tags: [
       {
-        name: "SwiftUI",
+        name: "React,Express",
         color: "blue-text-gradient",
       },
       {
-        name: "fire-base",
+        name: "mailtrap,Tailwind css",
         color: "green-text-gradient",
       },
       {
-        name: "Swift",
+        name: "Postman",
         color: "pink-text-gradient",
       },
     ],
   
     image: advance,
-    source_code_link: "https://github.com/Sandalu01/Apple-Framework",
+    source_code_link: "https://github.com/Sandalu-Xe/Advanced-Auth",
   },
   
   {
@@ -318,8 +319,8 @@ const projects = [
 
     points: [
       "Developed using SwiftUI.",
-      "Displays current weather conditions and forecasts.",
-      "Integrates with OpenWeatherMap API for real-time data.",
+      "5-Day Forecast: Shows the weather forecast for the next five days.",
+      "Day/Night Mode: Automatically switches between day and night modes based on the time of day",
     ],
 
     tags: [
@@ -328,11 +329,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "fire-base",
+        name: "Xcode 12.0+",
         color: "green-text-gradient",
       },
       {
-        name: "Swift",
+        name: "SF Symbols",
         color: "pink-text-gradient",
       },
     ],
