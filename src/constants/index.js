@@ -147,7 +147,7 @@ export const education = [
     icon: japura,
     iconBg: "#ffffff",
     points: [
-      "new ",
+      
       "Member of ICTS at Faculty Of Technology.",
       "Member of Astronomy club at University of Sri jayawardhenepura",
     ],
@@ -273,7 +273,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Sf ",
+        name: "Sf symbols",         
         color: "green-text-gradient",
       },
       {
