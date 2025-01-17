@@ -64,7 +64,7 @@ const ProjectCard = ({
             {pointss.map((point, index) => (
               <li
                 key={`project-point-${index}`}
-                className="text-white-100 text-[14px] pl-1 tracking-wider"
+                className="text-secondary text-[14px] pl-1 tracking-wider"
               >
                 {point}
               </li>
