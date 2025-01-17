@@ -5,6 +5,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { styles } from "../styles";
 
 const ProjectCard = ({
   index,
@@ -91,7 +92,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[15px] sm:text-[17px] max-w-3xl leading-[25px] sm:leading-[30px]"
+          className="mt-3 text-secondary text-[15px] max-w-3xl leading-[30px]"
         >
           I am Sandalu Thushan Ekanayaka.  
           Following projects showcase my skills and experience through real-world examples of my work.  
@@ -101,7 +102,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-wrap justify-center gap-5">
+      <div className="mt-10 flex flex-wrap">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
