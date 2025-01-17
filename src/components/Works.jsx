@@ -11,7 +11,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ProjectCard = ({
   index,
   name,
-  description,
+  points,
   tags,
   image,
   source_code_link,
@@ -29,7 +29,7 @@ const ProjectCard = ({
         <div className="relative w-full h-[230px]">
           <img
             src={image}
-            alt="project_image"
+            alt={`${name} project`}
             className="w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -39,7 +39,7 @@ const ProjectCard = ({
             >
               <img
                 src={github}
-                alt="source code"
+                alt="Source Code"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
@@ -48,7 +48,17 @@ const ProjectCard = ({
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          {/* Points as a bulleted list */}
+          <ul className="mt-3 list-disc ml-5 space-y-2">
+            {points.map((point, idx) => (
+              <li
+                key={`point-${idx}`}
+                className="text-secondary text-[14px] pl-1 tracking-wider"
+              >
+                {point}
+              </li>
+            ))}
+          </ul>
         </div>
 
         {/* Tags */}
@@ -66,6 +76,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+
 
 const Works = () => {
   return (

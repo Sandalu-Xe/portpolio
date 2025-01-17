@@ -209,10 +209,11 @@ const testimonials = [
 const projects = [
   {
     name: "Food Order-App",
-    description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-
-  
+    points: [
+      "Developed using SwiftUI.",
+      "Displays current weather conditions and forecasts.",
+      "Integrates with OpenWeatherMap API for real-time data.",
+    ],
 
     tags: [
       {
@@ -234,9 +235,11 @@ const projects = [
   },
   {
     name: "Object Detection ",
-    description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-
+    points: [
+      "Developed using SwiftUI.",
+      "Displays current weather conditions and forecasts.",
+      "Integrates with OpenWeatherMap API for real-time data.",
+    ],
    
     tags: [
       {
@@ -253,17 +256,16 @@ const projects = [
       },
     ],
 
-    points: [
-      "captured objectes of any photos ",         
-      "when insert vidoes captured  it's objects.",
-    ],
     image: object, 
     source_code_link: "https://github.com/Sandalu-Xe/Object-detection",
   },
   {
     name: "Apple Frameworks ",
-    description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    points: [
+      "Developed using SwiftUI.",
+      "Displays current weather conditions and forecasts.",
+      "Integrates with OpenWeatherMap API for real-time data.",
+    ],
 
 
     tags: [
@@ -286,9 +288,11 @@ const projects = [
   },
   {
     name: "Apple Frameworks ",
-    description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-
+    points: [
+      "Developed using SwiftUI.",
+      "Displays current weather conditions and forecasts.",
+      "Integrates with OpenWeatherMap API for real-time data.",
+    ],
 
     tags: [
       {
@@ -312,8 +316,11 @@ const projects = [
   {
     name: "Weather App",
 
-    description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    points: [
+      "Developed using SwiftUI.",
+      "Displays current weather conditions and forecasts.",
+      "Integrates with OpenWeatherMap API for real-time data.",
+    ],
 
     tags: [
       {
