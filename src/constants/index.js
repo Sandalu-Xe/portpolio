@@ -210,9 +210,9 @@ const projects = [
   {
     name: "Food Order-App",
     points: [
-      "Created a sleek and intuitive user interface.",
-      "Integrated API for real-time weather updates.",
-      "Enhanced performance for a smooth user experience.",
+      "used fire base Authentication",
+      "used storage Management for upload images and retrive functionalities",
+      "used fire base database for saving paswords and emails",
     ],
   
 
@@ -243,7 +243,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "python,cocoma mode",
+        name: "python,cocoma model",
         color: "green-text-gradient",
       },
       {
@@ -251,20 +251,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+
     points: [
-      "Created a sleek and intuitive user interface.",
-      "Integrated API for real-time weather updates.",
-      "Enhanced performance for a smooth user experience.",
+      "captured objectes of any photos ",         
+      "when insert vidoes captured  it's objects.",
     ],
-    image: object,
+    image: object, 
     source_code_link: "https://github.com/Sandalu-Xe/Object-detection",
   },
   {
     name: "Apple Frameworks ",
     points: [
-      "Created a sleek and intuitive user interface.",
-      "Integrated API for real-time weather updates.",
-      "Enhanced performance for a smooth user experience.",
+      "used SF symbols",
+      "used re-usable functionalities",
+      "developed  using stacks",
     ],
 
     tags: [
@@ -273,7 +273,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "fire-base",
+        name: "Sf ",
         color: "green-text-gradient",
       },
       {
