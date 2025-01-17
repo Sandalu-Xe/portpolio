@@ -81,23 +81,8 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>Personal Projects.</h2>
-        <p className={`${styles.sectionSubText}`}>My work</p>
-      </motion.div>
+     
 
-      <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          I am Sandalu Thushan Ekanayaka.  
-          Following projects showcase my skills and experience through real-world examples of my work.  
-          Each project is briefly described with links to code repositories and live demos.  
-          It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.  
-          I have also developed SwiftUI apps like a weather app.
-        </motion.p>
-      </div>
 
       <div className="mt-10 flex flex-wrap">
         {projects.map((project, index) => (
