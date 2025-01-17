@@ -53,11 +53,11 @@ const ProjectCard = ({
             {name}
           </h3>
           {/* Points as a bulleted list */}
-          <ul className="mt-3 list-disc ml-5 space-y-2">
+          <ul className="mt-5 list-disc ml-5 space-y-2">
             {points.map((point, idx) => (
               <li
                 key={`point-${idx}`}
-                className="text-secondary text-[12px] sm:text-[14px] pl-1 tracking-wider"
+                className="text-secondary text-[14px] pl-1 tracking-wider"
               >
                 {point}
               </li>
@@ -70,7 +70,7 @@ const ProjectCard = ({
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
-              className={`text-[12px] sm:text-[14px] ${tag.color}`}
+              className={`text-[14px] ${tag.color}`}
             >
               #{tag.name}
             </p>
