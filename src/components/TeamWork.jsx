@@ -19,10 +19,10 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div
-      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="w-full sm:w-[360px] md:w-[400px] group"
-      whileHover={{ y: -10 }}
-      transition={{ duration: 0.3 }}
+      variants={fadeIn("up", "spring", index * 0.3, 0.75)}
+      className="w-full max-w-sm mx-auto group"
+      whileHover={{ y: window.innerWidth > 768 ? -10 : -5 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
     >
       <Tilt
         options={{
